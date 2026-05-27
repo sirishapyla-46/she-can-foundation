@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>She Can Foundation</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet"/>
+  <style>
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Nunito', sans-serif;
+      background-color: #fff8f9;
+      color: #333;
+    }
+
+    /* ------- HEADER ------- */
+    header {
+      background-color: #e05c7e;
+      padding: 18px 30px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    header h1 {
+      color: white;
+      font-size: 1.6rem;
+      font-weight: 800;
+      letter-spacing: 0.5px;
+    }
+
+    header nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+      font-size: 0.95rem;
+    }
+
+    header nav a:hover {
+      text-decoration: underline;
+    }
+
+    /* ------- HERO ------- */
+    .hero {
+      text-align: center;
+      padding: 60px 20px 40px;
+      background: linear-gradient(to bottom, #fde8ef, #fff8f9);
+    }
+
+    .hero h2 {
+      font-size: 2rem;
+      color: #c94070;
+      margin-bottom: 14px;
+      line-height: 1.3;
+    }
+
+    .hero p {
+      font-size: 1.05rem;
+      color: #666;
+      max-width: 520px;
+      margin: 0 auto 28px;
+      line-height: 1.7;
+    }
+
+    .hero img {
+      width: 100%;
+      max-width: 600px;
+      border-radius: 14px;
+      margin-bottom: 30px;
+      border: 3px solid #f5a7bf;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .btn {
+      display: inline-block;
+      background-color: #e05c7e;
+      color: white;
+      padding: 12px 32px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-size: 1rem;
+      font-weight: 700;
+      transition: background 0.2s;
+    }
+
+    .btn:hover {
+      background-color: #c94070;
+    }
+
+    /* ------- ABOUT ------- */
+    .about {
+      padding: 50px 30px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .about h3 {
+      font-size: 1.5rem;
+      color: #e05c7e;
+      margin-bottom: 16px;
+      border-left: 4px solid #e05c7e;
+      padding-left: 12px;
+    }
+
+    .about p {
+      font-size: 1rem;
+      color: #555;
+      line-height: 1.8;
+      margin-bottom: 14px;
+    }
+
+    /* little cards for what we do */
+    .cards {
+      display: flex;
+      gap: 16px;
+      margin-top: 30px;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      flex: 1;
+      min-width: 200px;
+      background: white;
+      border: 1.5px solid #f5a7bf;
+      border-radius: 12px;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .card span {
+      font-size: 2rem;
+    }
+
+    .card h4 {
+      margin: 10px 0 6px;
+      color: #c94070;
+      font-size: 1rem;
+    }
+
+    .card p {
+      font-size: 0.88rem;
+      color: #777;
+    }
+
+    /* ------- FOOTER ------- */
+    footer {
+      background-color: #2d2d2d;
+      color: #ccc;
+      text-align: center;
+      padding: 28px 20px;
+      margin-top: 40px;
+      font-size: 0.9rem;
+    }
+
+    footer span {
+      color: #e05c7e;
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <h1>She Can Foundation 🌸</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+
+    <h2>Every girl deserves a chance to shine ✨</h2>
+
+    <p>
+      She Can Foundation works to empower young women through education,
+      mentorship and community support. Because we believe — she can do anything.
+    </p>
+
+    <img
+      src="https://images.unsplash.com/photo-1529390079861-591de354faf5?w=700&q=80"
+      alt="Young women learning together"
+      onerror="this.src='https://via.placeholder.com/600x340/f5a7bf/ffffff?text=She+Can+Foundation'"
+    />
+
+    <a href="#about" class="btn">Learn More About Us</a>
+
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section class="about" id="about">
+
+    <h3>About Us</h3>
+
+    <p>
+      She Can Foundation is a non-profit organisation that was started with one simple idea —
+      no girl should be held back because of where she was born or what she looks like.
+      We run free programs in education, skill building and leadership for young women
+      from all backgrounds.
+    </p>
+
+    <p>
+      We have reached over 5,000 girls across 20+ communities so far. But for us,
+      every single story matters — not just the numbers. If we can help one more girl
+      believe in herself, that's a win.
+    </p>
+
+    <div class="cards">
+      <div class="card">
+        <span>📚</span>
+        <h4>Education</h4>
+        <p>Free classes, tutoring and scholarships for girls in need.</p>
+      </div>
+      <div class="card">
+        <span>💬</span>
+        <h4>Mentorship</h4>
+        <p>Connecting girls with inspiring women who guide them forward.</p>
+      </div>
+      <div class="card">
+        <span>🌱</span>
+        <h4>Growth</h4>
+        <p>Workshops on confidence, leadership and life skills.</p>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="contact">
+    <p>Made with <span>♥</span> by a supporter of She Can Foundation</p>
+    <p style="margin-top: 6px;">© 2025 She Can Foundation &nbsp;|&nbsp; contact@shecangfoundation.org</p>
+  </footer>
+
+</body>
+</html>
